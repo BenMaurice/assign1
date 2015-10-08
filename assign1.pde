@@ -7,6 +7,8 @@
   int hpX, hpY, rectHP;
   int treasureX,treasureY;
   int rectHP;
+  
+  rect(treasureX,treasureY,rectHP,10);
 void setup () {
     size(640,480) ;  
     background(0);
@@ -23,6 +25,9 @@ void setup () {
       treasureY=floor(random(481));
       hpX=floor(random(350));
       hpY=floor(random(200));
+      
+      
+      fill(#FF0000);
       rectHP=floor(random(55));
 }
 
@@ -37,7 +42,7 @@ void draw() {
   image(fighterImg,fighterX,fighterY);
   image(hpImg,hpX,hpY);
   image(treasureImg,treasureX,treasureY);
-  fill(#FF0000);
+  
   rect(treasureX,treasureY,rectHP,10);
     
 

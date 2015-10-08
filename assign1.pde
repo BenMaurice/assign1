@@ -41,7 +41,7 @@ void draw() {
   image(fighterImg,fighterX,fighterY);
   image(hpImg,hpX,hpY);
   image(treasureImg,treasureX,treasureY);
-  rect(255,0,0);
+  fill(255,0,0);
   rect(treasureX,treasureY,rectHP,10);
   
   

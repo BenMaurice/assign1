@@ -5,7 +5,7 @@
   PImage treasureImg;
   int enemyX;
   int fighterX, fighterY;
-  int hpX, hpY, HP;
+  int hpX, hpY, rectHP;
   int treasureX,treasureY;
   int 
 void setup () {
@@ -27,7 +27,7 @@ void setup () {
       treasureY=floor(random(481));
       hpX=floor(random(350));
       hpY=floor(random(200));
-      HP=floor(random(55));
+      rectHP=floor(random(55));
 }
 
 void draw() {

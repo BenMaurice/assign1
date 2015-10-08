@@ -7,7 +7,7 @@
   int fighterX, fighterY;
   int hpX, hpY, rectHP;
   int treasureX,treasureY;
-  int 
+  int rectHP;
 void setup () {
     size(640,480) ;  
     background(0);

@@ -29,7 +29,7 @@ void setup () {
 }
 
 void draw() {
- 
+ background(0);
       
     
       image(enemyImg,enemyX,250);

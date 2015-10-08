@@ -48,7 +48,7 @@ hpX=floor(random(350));
       treasureY=floor(random(481));      
       
       
-     
+     background(0);
       
     
     

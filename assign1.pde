@@ -29,7 +29,7 @@ void setup () {
       
       fill(#FF0000);
       rectHP=floor(random(155));
-      rect(hpX+100,hpY+60,rectHP,50);
+      
 }
 
 void draw() {

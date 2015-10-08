@@ -1,4 +1,5 @@
- PImage enemyImg;
+
+  PImage enemyImg;
   PImage fighterImg;
   PImage hpImg;
   PImage treasureImg;
@@ -34,8 +35,16 @@ void draw() {
       image(enemyImg,enemyX,250);
     enemyX+=5;
     enemyX%=640;
+    image(enemyImg,enemyX,250);
+  image(fighterImg,fighterX,fighterY);
+  image(hpImg,hpX,hpY);
+  image(treasureImg,treasureX,treasureY);
+hpX=floor(random(350));
+      hpY=floor(random(200));
       
       
+      treasureX=floor(random(641));
+      treasureY=floor(random(481));      
       
       
      

@@ -25,6 +25,8 @@ void setup () {
 }
 
 void draw() {
+ background(0);
+      
     enemyImg = loadImage("img/enemy.png");
     fighterImg = loadImage("img/fighter.png");
     hpImg = loadImage("img/hp.png");
@@ -42,8 +44,7 @@ hpX=floor(random(350));
       
       
       
-     background(0);
-      
+    
     
     
 

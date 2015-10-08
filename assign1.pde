@@ -8,7 +8,7 @@
   int treasureX,treasureY;
   int rectHP;
   
-  rect(treasureX,treasureY,rectHP,10);
+
 void setup () {
     size(640,480) ;  
     background(0);
@@ -28,7 +28,8 @@ void setup () {
       
       
       fill(#FF0000);
-      rectHP=floor(random(55));
+      rectHP=floor(random(155));
+      rect(treasureX,treasureY,rectHP,50);
 }
 
 void draw() {

@@ -44,7 +44,7 @@ void draw() {
   image(hpImg,hpX,hpY);
   image(treasureImg,treasureX,treasureY);
   
-  rect(hpX+100,hpY+60,rectHP,10);
+  rect(hpX+100,hpY+30,rectHP,10);
     
 
 }

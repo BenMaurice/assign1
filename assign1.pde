@@ -22,7 +22,7 @@ void setup () {
   fighterY=240;
   
       treasureX=floor(random(610));
-      treasureY=floor(50+random(441));
+      treasureY=floor(50+random(400));
       hpX=50;
       hpY=40;
       

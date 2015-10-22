@@ -28,7 +28,7 @@ void setup () {
       
       
       fill(#FF0000);
-      rectHP=floor(random(100));
+      rectHP=floor(50random(50));
       
 }
 
@@ -44,7 +44,7 @@ void draw() {
   image(hpImg,hpX,hpY);
   image(treasureImg,treasureX,treasureY);
   
-  rect(hpX+35,hpY+15,rectHP,10);
+  rect(hpX+20,hpY+15,rectHP,10);
     
 
 }

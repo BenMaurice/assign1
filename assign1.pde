@@ -1,4 +1,4 @@
-  PImage enemyImg;
+PImage enemyImg;
   PImage fighterImg;
   PImage hpImg;
   PImage treasureImg;
@@ -21,14 +21,14 @@ void setup () {
     fighterX=560;
   fighterY=240;
   
-      treasureX=floor(random(641));
-      treasureY=floor(random(481));
-      hpX=floor(random(350));
-      hpY=floor(random(200));
+      treasureX=floor(random(610));
+      treasureY=floor(random(441));
+      hpX=50;
+      hpY=40;
       
       
       fill(#FF0000);
-      rectHP=floor(random(155));
+      rectHP=floor(random(100));
       
 }
 
@@ -48,3 +48,4 @@ void draw() {
     
 
 }
+
